@@ -2,7 +2,7 @@
 Simple symbolicator python script based on 'atos' command
 
 Run sample: 
-symbolicate.py {xxx.dSYM/Contents/Resources/DWARF/xxx} {file.diag} {outputFile}
+symbolicate.py {xxx.dSYM/Contents/Resources/DWARF/xxx} {file.crash} {outputFile}
 
 You will need for running this script the following files:
 
@@ -12,7 +12,7 @@ You will need for running this script the following files:
 
 2. Your diagnostic/crash report file
 
-3. you can supply output file path, or use the default - /tmp/translatedDiagnostics.log
+3. you can supply output file path, or use the default - symbolicated.crash
 
 then, supply the scipts these parameters with the above order. 
 
